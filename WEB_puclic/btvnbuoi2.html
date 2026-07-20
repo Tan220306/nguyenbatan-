@@ -8,15 +8,117 @@
 <body>
     <h1>THÔNG TIN CÁ NHÂN </h1>
 <nav> 
-    <a href="giới thiệu">Giới Thiệu</a>|
-    <a href="Sở thích">Sở thích</a>|
-    <a href="Kỹ năng">Kĩ Năng</a>|
-    <a href="Thời gian biểu">Thời gian biểu</a>|
-    <a href="Liên hệ">Liên hệ</a>
+    <a href="#gioithieu">Giới Thiệu</a>|
+    <a href="#sothich">Sở thích</a>|
+    <a href="#kinang">Kĩ Năng</a>|
+    <a href="#thoikhoabieu">Thời gian biểu</a>|
+    <a href="#lienhe">Liên hệ</a>
 </nav>
     <hr> 
-     <h2>Thông tin cá nhân</h2>
+    <img src="https://trainghiemso.vn/wp-content/uploads/2022/04/wallpaper-engine-featured-2.webp" alt="Image" width="50" height="60" />
+   <h2>Thông tin cá nhân</h2>
      <p><b>Họ tên: </b>Nguyễn Bá Tân</p>
-     
+     <p><b>Tuổi:</b>20</p>
+     <p><b>Trường:</b>Đại học công nghiệp hà nội</p>
+     <p><b>Ngành:</b>Mạng máy tính</p>
+     <p><b>Lớp:</b>MMT01</p>
+     <p><b>Email:</b>nguyenbatan2k6x10@gmail.com</p>
+     <p><b>Số điện thoại:</b>0817287180</p>
+     <hr> 
+     <h2 id="gioithieu">Giới thiệu bản thân</h2>
+     <p>Xin chào ! Mình là Nguyễn Bá Tân, hiện đang là sinh viên ngành mạng máy tính </p>
+    <p>Mình yêu thích lập trình wed và mong muốn trở thành front-end developer trong tương lai</p>
+    <hr> 
+    <h2 id="sothich">Sở thích</h2>
+    <ul> 
+        <li>Đọc sách</li>
+        <li>Lập trình</li>
+        <li>Đá bóng</li>
+        <li>Nghe nhạc</li>
+        <li>Du lịch</li>
+    </ul>
+    <hr> 
+    <h2 id="kinang">Kĩ năng</h2>
+    <ol> 
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Git &GitHub</li>
+        <li>c++</li>
+    </ol>
+    <hr> 
+    <h2 id="thoikhoabieu">Thời gian biểu</h2>
+    <table border="1">
+  <tr>
+    <th>Thứ</th>
+    <th>Môn học</th>
+    <th>Phòng học</th>
+  </tr>
+  <tr>
+    <td rowspan="2">thứ 2</td>
+    <td>HTML</td>
+    <td>A1-101</td>
+  </tr>
+  <tr>
+    <td>CSS</td>
+    <td>A1-102</td>
+  <tr>
+    <td>thứ 3</td>
+    <td>JavaScript</td>
+    <td>A1-103</td>
+  </tr>
+  <tr>
+    <td>thứ 4</td>
+    <td>CSDL</td>
+    <td>A1-104</td>
+  </tr>
+  <tr>
+    <td>thứ 5</td>
+    <td>ReactJS</td>
+    <td>A1-105</td>
+  </tr>
+  <tr>
+    <th colspan="3">Tổng cộng 5 buổi học</th>
+</tr>
+</table>
+<h2 id="lienhe">Form Liên hệ</h2>
+  <label for="Hoten">Họ tên:</label><br />
+  <input type="text" id="Hoten" name="Hoten" /><br />
+  <label for="email">Email:</label><br />
+  <input type="text" id="email" name="email" /><br/>
+  <label for="mật khẩu">Mật khẩu:</label><br />
+  <input type="password" id="mật khẩu" name="mật khẩu" /><br/>
+</form>
+<p><b>Giới tính:</b></p>
+<input type="radio" id="nam" name="gioitinh" value="Nam">
+<label for="nam">Nam</label>
+<input type="radio" id="nu" name="gioitinh" value="Nữ">
+<label for="nu">Nữ</label>
+
+<p><b>Sở thích:</b></p>
+<input type="checkbox" id="laptrinh" name="sothich" value="Lập trình">
+<label for="laptrinh">Lập trình</label>
+<input type="checkbox" id="nghenhac" name="sothich" value="Nghe nhạc">
+<label for="nghenhac">Nghe nhạc</label>
+<input type="checkbox" id="thethao" name="sothich" value="Thể thao">
+<label for="thethao">Thể thao</label><br/>
+</form>
+<label for="Ngành">Ngành:</label>
+<select id="Ngành" name="Ngành">
+  <option value="Mạng máy tính">Mạng máy tính</option>
+  <option value="Kĩ thuật phần mềm">Kĩ thuật phần mềm</option>
+  <option value="Khoa học máy tính">Khoa học máy tính</option><br/>
+</select><br/>
+Giới thiệu:
+<textarea name="message" rows="10" cols="30"></textarea><br/>
+<button type="button">Gửi</button>
+<hr>
+<h2 id="lienhe">Liên hệ</h2>
+<a href="https://web.facebook.com/ng.ba.tan12010422">facebook</a><br/>
+<a href="https://github.com/Tan220306">Github</a><br/>
+<a href="https://www.instagram.com/__ng.ba.tan__/">instagram</a>
+<hr>
+<p>© 2026 Nguyễn Bá Tân </p>
+
 </body>
 </html>
