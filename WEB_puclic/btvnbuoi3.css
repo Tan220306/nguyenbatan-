@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.card{
+    width: 350px;
+    background-color: white;
+    border-color: grey;
+    border-radius: 20px;
+    padding: 10px 5px;
+    margin: 5px 30px;
+}
+body {
+    background-color: rgb(212, 206, 206);
+    font-family: "Arial";
+    text-align: center;
+    display: flex;
+}
+.name {
+    color: rgb(20, 2, 134);
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 4px solid rgb(0, 157, 255);
+    margin-bottom: 2%;
+}
+.job{
+  color: rgb(135, 131, 131);
+    font-style: italic;
+    font-size: 1.1rem;  
+}
+
+.infor p{
+    padding: 20px;
+    border-bottom: 1px solid rgb(206, 192, 192);
+    text-align: center;
+    margin-bottom: 10px;
+}
+.skill p{
+    border-radius: 20px;
+    border: 1px solid rgb(0, 157, 255);
+    color:rgb(0, 157, 255);
+    display: inline-block;
+    text-align: center;
+    margin: 10px 5px;
+    padding: 10px 20px;
+}
+.follow{
+    width: 70px;
+    border-radius: 10px;
+    background-color: rgb(0, 157, 255);
+    display: inline-block;
+    margin: 16px 5px;
+    padding: 20px 30px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.message{
+    border: 2px solid rgb(0, 157, 255);
+    border-radius: 10px;
+    display: inline-block;
+    margin: 14px 5px;
+    padding: 20px 30px;
+    color: rgb(0, 157, 255);
+    font-weight: bold;
+    text-decoration: none;
+}
